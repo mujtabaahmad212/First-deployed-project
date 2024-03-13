@@ -26,8 +26,9 @@
         background-color: rgb(239, 246, 23) 
       }
       tr,th,td{
-        border: solid 1px;
+        border: solid 1px gold;
         color: rgb(255, 255, 255) ;
+        
       }
       #lorem300{
         font-size: larger;
@@ -47,22 +48,14 @@
       .hotelpic{
        border-radius: 30%;
        overflow: hidden;
-       border: solid 2px;
+       
        border-color: rgb(4, 4, 4);
        width: 200px;
-         
+         border: solid gold 2px;
+       
+        box-shadow: 1px  1px 50px gold;
       }
-      .hotelpic:hover{
-       
-        
-        
-        border: solid gold 2px;
-       
-        box-shadow: 0px  0px 30px gold;
-       
-      
-        
-      }
+     
       .unipic{
         border-radius: 20px;
         border: solid rgb(0, 0, 0) 2px;
@@ -114,8 +107,8 @@
       .form{
         
         background-color: gold;
-        border: solid 2px gold;
-        box-shadow: 0px 0px 15px gold;
+       border: solid 2px rgb(0, 0, 0);
+        /*  box-shadow: 0px 0px 15px gold; */
         border-radius: 50%/80%;
         padding: 30px;
         width:  90px;
@@ -123,6 +116,13 @@
         margin-top: 40px
         
         
+      }
+      .form:hover{
+        border: solid 2px gold;
+        box-shadow: 0px 0px 30px gold;
+      }
+      #allpages{
+        text-decoration: none;
       }
     </style>
 </head>
@@ -133,7 +133,7 @@
   <!-- header -->
   <!-- pages -->
 <center>
-  <h3 class="pages"><a href="./index.html">HOME</a>   <a href="./contact.html">contact us</a>   <a href="./skills.html">MY Skills</a>  <a href="./project.html">Projects</a> </h3> 
+  <h3 class="pages"> <a href="./index.html"id="allpages">HOME</a>   <a href="./contact.html"id="allpages">CONTACT US </a>    <a href="./skills.html"id="allpages">MY SKILLS</a>   <a href="./project.html"id="allpages">PROJECTS</a>  </h2> 
   <hr></header></center>
   <!-- header end -->
 
@@ -164,8 +164,10 @@
 <img class="normalpic2" src="https://images.pexels.com/photos/6034757/pexels-photo-6034757.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""width="700" height="282">
 </center> -->
 
+
+<!-- Form -->
 <center><div class="form">
-  <a href="./form/form.html"> Fill Form</a>
+  <a href="./form/form.html" style="color: black;text-decoration: none;"> Fill Form</a>
 </div>
 </center>
 
